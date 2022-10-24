@@ -1,0 +1,32 @@
+/* the middle the project highlight section */
+.middle-section {
+    display: grid;
+    height: 130px;
+
+    column-gap:54px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin-top: 39px;
+    margin-bottom: 39px;
+}
+
+.middle-section img {
+    width: 77px;
+    height: 77px;
+    border-radius: 77px;
+
+    border-width: 3px;
+    border-style: double;
+    border-color: gray;
+}
+
+.middle-section div {
+    font-size: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 9 px;
+}
+
